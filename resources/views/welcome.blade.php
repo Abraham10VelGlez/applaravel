@@ -157,7 +157,7 @@ h1 {
                        @auth
                            <a href="{{ url('/dashboard') }}" class=" btn-link text-sm text-gray-700 dark:text-gray-500 underline">Inicio</a>
                        @else
-                           <a href="{{ route('login') }}" class=" btn-link text-sm text-gray-700 dark:text-gray-500 underline">Iniciar Sesion</a>
+                           <a href="{{ route('login') }}" class=" btn-link text-sm text-gray-700 dark:text-gray-500 underline">Iniciar</a>
                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                            @if (Route::has('register'))
                                <a href="{{ route('register') }}"   class=" btn-link ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registro</a>
